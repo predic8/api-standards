@@ -80,7 +80,7 @@ The action taken on the representation will be contextual to the media type bein
 | HTTP METHOD | POST            | GET       | PUT         | DELETE |
 | ----------- | --------------- | --------- | ----------- | ------ |
 | CRUD OP     | CREATE          | READ      | UPDATE      | DELETE |
-| /dogs       | Create new dogs | List dogs | Bulk update | Delete all dogs |
+| /dogs       | Create new dogs | List dogs | Error | Delete all dogs |
 | /dogs/1234  | Error           | Show Bo   | If exists, update Bo; If not, error | Delete Bo |
 
 (Example from Web API Design, by Brian Mulloy, Apigee.)
